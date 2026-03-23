@@ -1,0 +1,57 @@
+Ramesh Reddy Changal
+Software Engineer focused on distributed systems, AI/ML, and full-stack product engineering
+Chicago, Illinois
+Email: rameshc1@umbc.edu
+Phone: (667) 260-3005
+
+Summary
+Building resilient platforms, real-time systems, and applied AI experiences with a strong bias toward production quality and measurable impact.
+
+Highlights
+- Built a customer-facing AI icon generation platform handling more than 10,000 requests per day.
+- Implemented a Stripe-backed credit system for the AI icon platform that contributed more than $50K in revenue.
+- Designed scalable, decoupled systems with strong uptime and resilience characteristics.
+- Built a real-time chat architecture supporting thousands of concurrent users.
+
+Experience
+University of Maryland, Baltimore County
+Graduate Assistant & Grader - Finite Automata | Aug 2024 - May 2025 | Baltimore, Maryland
+- Supported formal language theory instruction while evaluating technical implementations and helping students strengthen proof-based reasoning.
+- Assessed work for 150+ students across DFA, NFA, pushdown automata, and Turing machine assignments.
+- Worked with faculty on problem sets, rubrics, and grading criteria across regular expressions, grammars, and decidability topics.
+- Led weekly office hours that improved assignment performance by 20% and reduced conceptual errors by 30%.
+
+ICRISAT
+Research Intern | Sep 2022 - Oct 2022 | Patancheru, India
+- Applied machine learning, data collection tooling, and dashboard design to agricultural research workflows.
+- Built a fertilizer recommendation model in Python using Scikit-learn and Pandas based on soil, weather, and crop context.
+- Compared Decision Trees, Random Forest, and SVM to identify the strongest-performing model for the dataset.
+- Implemented offline-first DHIS-2 data capture flows and improved field data reliability by 40%.
+
+Path Creators
+Software Engineering Intern | Jun 2021 - Jul 2021 | Hyderabad, India
+- Built conversational AI features for an NLP chatbot that guided users and recommended IoT sensors.
+- Collaborated in a four-person team to build a chatbot using the RASA framework.
+- Improved intent training and overall model quality to raise user interaction effectiveness.
+- Contributed backend architecture, API integrations, and response routing logic.
+
+Path Creators
+Robotics Engineering Intern | Jun 2019 - Jul 2019 | Hyderabad, India
+- Delivered a sensor-based robotics system that combined ROS, computer vision, AI detection, and remote device communication.
+- Led a five-person team to ship the robot in a 36-day sprint-driven timeline.
+- Integrated ROS, OpenCV, TensorFlow, and Raspberry Pi for AI-based obstacle detection.
+- Built WiFi sensor communication with mobile monitoring through a custom REST API.
+
+Projects
+- AI-Powered Icon Generation Platform: Node.js, React, DALL-E API, AWS EC2, AWS S3, Pub/Sub.
+- Distributed File System (GFS-Inspired): Python, gRPC, Docker, Distributed Systems.
+- Scalable Real-Time Chat Application: TypeScript, Node.js, Socket.IO, Redis Pub/Sub, Kafka.
+- Agricultural Crop Yield Prediction System: Python, Scikit-learn, TensorFlow, Flask, React, PostgreSQL.
+- RASA-Powered IoT Sensor Recommendation Chatbot: Python, RASA, Node.js, REST API, NLP.
+
+Education
+- Master's in Computer Science, University of Maryland, Baltimore County | Aug 2023 - May 2025
+- Bachelor's in Computer Science, St. Peter's Engineering College | May 2018 - May 2022
+
+Core Skills
+Python, Java, C++, JavaScript, TypeScript, Go, SQL, C#, React, Node.js, Flask, Django, REST APIs, WebSockets, Microservices, GraphQL, TensorFlow, PyTorch, Scikit-learn, OpenCV, RASA, AWS EC2, AWS S3, AWS Lambda, Docker, Kubernetes, Terraform
