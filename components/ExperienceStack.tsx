@@ -188,11 +188,6 @@ function ExperienceTimelineCard({
           transform: isMuted ? "scale(0.985)" : undefined,
         }}
       >
-        {isActive ? (
-          <div className="absolute right-3 top-3 z-30 rounded-full bg-black px-3 py-1 font-mono text-[10px] font-black uppercase tracking-[0.22em] text-white md:hidden">
-            Active
-          </div>
-        ) : null}
         <div
           className={`absolute inset-0 pointer-events-none z-20 transition-transform duration-1000 ease-in-out ${isAccentActive ? "translate-x-[200%] skew-x-[-20deg]" : "-translate-x-[100%] skew-x-[-20deg]"}`}
           style={{
