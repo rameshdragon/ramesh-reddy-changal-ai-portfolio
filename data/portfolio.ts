@@ -2,10 +2,10 @@ import { PortfolioData } from "@/types/portfolio";
 
 export const portfolioData: PortfolioData = {
   name: "Ramesh Reddy Changal",
-  title: "Software Engineer focused on AI agents, distributed systems, backend platforms, and full-stack product engineering",
-  location: "Chicago, Illinois",
+  title: "Software Engineer · Applied AI/ML · Backend Systems · Python",
+  location: "Chicago, IL 60616",
   heroSummary:
-    "Building agentic systems, resilient backend platforms, and real-time applications with a strong bias toward production quality, measurable impact, and fast iteration.",
+    "UMBC Computer Science graduate building high-concurrency systems and resilient backend platforms.",
   overview: [
     "Ramesh is a software engineer and computer science graduate who works across AI agents, orchestration systems, backend platforms, distributed systems, and full-stack product development.",
     "His recent work spans multi-agent LLM systems, ML engineering, asynchronous APIs, cloud deployment, experiment tracking, and real-time architectures built for scale and maintainability.",
@@ -41,136 +41,133 @@ export const portfolioData: PortfolioData = {
   ],
   highlights: [
     {
-      value: "10K+",
-      label: "concurrent users",
+      value: "70%",
+      label: "ML accuracy",
       detail:
-        "Built and tuned a real-time distributed platform that scaled to more than 10,000 concurrent users.",
-    },
-    {
-      value: "50K+",
-      label: "daily records",
-      detail:
-        "Designed ML-serving pipelines and dashboards processing more than 50,000 daily records with stronger reliability.",
+        "Deployed crop yield prediction model achieving 70% accuracy using Linear Regression and Random Forest.",
     },
     {
       value: "40%",
-      label: "latency reduction",
+      label: "data reliability",
       detail:
-        "Cut API p99 latency from 320ms to 190ms through async query optimization and backend tuning.",
+        "Improved agricultural data reliability by 40% through systematic cleaning of noisy datasets.",
     },
     {
-      value: "87%",
-      label: "model accuracy",
+      value: "150+",
+      label: "students graded",
       detail:
-        "Tracked structured ML experiments with MLflow and deployed the strongest model at 87% accuracy.",
+        "Supported 150+ students across 3 semesters grading assignments in discrete mathematics.",
+    },
+    {
+      value: "36 days",
+      label: "delivery sprint",
+      detail:
+        "Led 4-member team to ship functional IoT obstacle-detection prototype in 36 days.",
     },
   ],
   experience: [
     {
       company: "University of Maryland, Baltimore County",
-      location: "Baltimore, Maryland",
-      role: "Graduate Teaching Assistant",
-      period: "Aug 2024 - May 2025",
+      location: "Baltimore, MD",
+      role: "Graduate Grading Assistant – Discrete Mathematics",
+      period: "Mar 2024 - May 2025",
       summary:
-        "Built evaluation workflows, led technical reviews, and helped students translate formal CS concepts into clean, reproducible implementations.",
+        "Supported 150+ students across 3 semesters by grading assignments and exams in probability theory, graph theory, and combinatorics.",
       achievements: [
-        "Built an automated evaluation pipeline for 150+ students, reduced grading error rate by 30%, and improved outcomes by 20%.",
-        "Led weekly code reviews focused on architecture, documentation, and reproducibility using the same habits that keep AI systems maintainable in production.",
-        "Explained complex technical designs clearly to non-engineers and often served as the bridge between research ideas and working systems.",
+        "Graded assignments and exams in probability theory, graph theory, and combinatorics for 150+ students across 3 semesters.",
+        "Held office hours covering advanced topics when primary TA was unavailable.",
       ],
-      tools: ["Claude Code", "Cursor", "Git", "Code Review", "Software Engineering", "Technical Communication"],
+      tools: ["Discrete Mathematics", "Grading", "Office Hours"],
     },
     {
-      company: "ICRISAT",
-      location: "Patancheru, India",
-      role: "Research Intern - ML Engineering",
+      company: "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)",
+      location: "Hyderabad, India",
+      role: "Machine Learning Research Intern",
       period: "Sep 2022 - Oct 2022",
       summary:
-        "Designed, trained, and deployed ML systems with experiment tracking, FastAPI serving, and dashboards for non-technical stakeholders.",
+        "Enabled data-driven farming risk assessment for 3-4 research scientists by deploying ML crop yield prediction model.",
       achievements: [
-        "Designed Decision Tree, Random Forest, and SVM models in Scikit-learn and deployed the best model at 87% accuracy with structured experiment tracking in MLflow.",
-        "Built the full platform around the model including Python ingestion, feature engineering, FastAPI serving, and a React dashboard for stakeholder access.",
-        "Set up automated retraining and production alerting so model quality could be monitored and improved over time.",
+        "Deployed ML crop yield prediction model achieving 70% accuracy using Linear Regression and Random Forest on on-premises server accessible via local WiFi.",
+        "Improved data reliability by 40% through systematic cleaning of noisy agricultural datasets; built Streamlit interface eliminating API overhead, making predictions accessible to non-technical users.",
+        "Contributed to DHIS2 data collection tool with PostgreSQL integration.",
       ],
-      tools: ["Python", "Scikit-learn", "MLflow", "FastAPI", "React", "Pandas", "TensorFlow"],
+      tools: ["Python", "Scikit-learn", "Linear Regression", "Random Forest", "Streamlit", "PostgreSQL", "DHIS2"],
     },
     {
       company: "Path Creators",
       location: "Hyderabad, India",
-      role: "Software Engineering Intern",
+      role: "Software Development Intern",
       period: "Jun 2021 - Jul 2021",
       summary:
-        "Built conversational AI features and backend routing logic for an NLP chatbot that guided users and recommended IoT sensors.",
+        "Enhanced user engagement by delivering pattern-based conversational chatbot with Python, Flask, and JavaScript.",
       achievements: [
-        "Built conversational AI features for an NLP chatbot that guided users and recommended IoT sensors.",
-        "Collaborated in a four-person team to build a chatbot using the RASA framework and improve intent handling quality.",
-        "Contributed backend architecture, API integrations, and response routing logic to make the chatbot more reliable for users.",
+        "Delivered pattern-based conversational chatbot with Python, Flask, and JavaScript.",
+        "Designed conversation flow logic and integrated backend-frontend systems for multi-turn interactions.",
       ],
-      tools: ["Python", "RASA", "Node.js", "REST API", "NLP", "Backend Architecture"],
+      tools: ["Python", "Flask", "JavaScript"],
     },
     {
       company: "Path Creators",
       location: "Hyderabad, India",
-      role: "Robotics Engineering Intern",
+      role: "Software Development Intern",
       period: "Jun 2019 - Jul 2019",
       summary:
-        "Built a sensor-based robotics system that combined ROS, computer vision, AI detection, and remote device communication.",
+        "Built real-time obstacle-detection IoT prototype using Arduino and sensor arrays.",
       achievements: [
-        "Led a five-person team to ship the robot in a 36-day sprint-driven timeline.",
-        "Integrated ROS, OpenCV, TensorFlow, and Raspberry Pi for AI-based obstacle detection.",
-        "Built WiFi sensor communication with mobile monitoring through a custom REST API.",
+        "Built real-time obstacle-detection IoT prototype using Arduino and sensor arrays.",
+        "Led hardware-software integration within a 4-member team and shipped functional system in 36 days against a tight client deadline.",
       ],
-      tools: ["ROS", "OpenCV", "TensorFlow", "Raspberry Pi", "REST API", "Computer Vision"],
+      tools: ["Arduino", "IoT", "Sensors"],
     },
   ],
   projects: [
     {
-      title: "Distributed File System",
-      stack: ["Python", "gRPC", "Docker", "Distributed Systems"],
+      title: "MailMind – AI Gmail Intelligence Platform",
+      stack: ["FastAPI", "LangChain", "OAuth 2.0", "LLM", "React"],
       summary:
-        "A GFS-inspired distributed file system focused on replication, reliability, and coordinated storage behavior across nodes.",
+        "Natural language search interface for Gmail using LangChain to translate user queries into Gmail API filters — no email data stored on backend.",
       impact: [
-        "Designed a distributed file system inspired by GFS with core storage and coordination primitives built from scratch.",
-        "Used Python and gRPC to coordinate communication between services while Docker simplified multi-node local execution.",
-        "Focused on system reliability, distributed design tradeoffs, and clean service boundaries for filesystem operations.",
+        "Built natural language search interface using LangChain to translate user queries into Gmail API filters.",
+        "OAuth 2.0 with read-only scope enforces access boundaries at the auth layer; FastAPI backend handles async fetching with response caching to keep latency low.",
+        "Built NLP-based analytics layer on top of email content — extracts transaction data, categorizes expenses, and tracks spending patterns without requiring users to manually export or tag anything.",
+      ],
+      repoUrl: "",
+    },
+    {
+      title: "Multi-Agent Research Platform",
+      stack: ["Python", "Mixtral-8x7B", "LangChain", "Beautiful Soup", "Hugging Face", "arXiv API"],
+      summary:
+        "Two-stage LLM verification pipeline to address hallucination on post-training-cutoff topics with live source retrieval and synthesis.",
+      impact: [
+        "Built two-stage LLM verification pipeline — first Mixtral-8x7B instance retrieves and analyzes 15 live sources (10 web via DDGS + 5 arXiv papers), second instance synthesizes a grounded response from that analysis.",
+        "Separated retrieval from generation by design: Beautiful Soup handles web extraction, arXiv API fetches recent papers — prevents retrieval noise from propagating into the final output.",
+        "Responses include source citations, making output auditable for topics like recent model releases or policy updates where a confident but wrong answer has real consequences.",
+      ],
+      repoUrl: "https://github.com/rameshdragon/research_agent",
+    },
+    {
+      title: "Distributed File Storage System",
+      stack: ["Python", "Flask", "Docker"],
+      summary:
+        "GFS-inspired distributed storage system — master node tracks chunk metadata, three storage nodes handle persistence with replication across nodes.",
+      impact: [
+        "Built GFS-inspired distributed storage system — master node tracks chunk metadata and assignments, three storage nodes handle persistence; files chunked at 512 bytes and replicated across nodes so the system tolerates two simultaneous node failures.",
+        "Clients fetch chunk-to-node assignments from master and write directly to storage nodes, keeping master out of the data path and preventing it from becoming a throughput bottleneck.",
+        "Implemented Flask heartbeat monitoring with automatic re-replication on node failure; containerized with Docker, sustained 99.9% uptime in failure-injection testing.",
       ],
       repoUrl: "https://github.com/rameshdragon/distributed-fs",
     },
     {
-      title: "ML Prediction Platform with Experiment Tracking",
-      stack: ["Python", "Scikit-learn", "TensorFlow", "MLflow", "NumPy", "Pandas", "FastAPI", "Streamlit", "Docker", "GCP"],
+      title: "AI Icon Generation Platform",
+      stack: ["Python", "FastAPI", "React", "LangChain", "Llama", "Stable Diffusion", "Hugging Face"],
       summary:
-        "An end-to-end ML platform covering data ingestion, training, experiment tracking, evaluation, retraining, and stakeholder-facing dashboards.",
+        "Prompt optimization pipeline where user input and style preferences are passed through LangChain to Llama, which rewrites them into a well-structured Stable Diffusion prompt.",
       impact: [
-        "Built the full ML lifecycle with data ingestion, feature engineering, multi-model training, experiment tracking, and automated evaluation.",
-        "Improved accuracy by 23% over baseline and reduced preprocessing time by 80%.",
-        "Deployed on GCP with Docker, CI/CD, automated retraining on drift, and a Streamlit dashboard for non-technical users.",
-      ],
-      repoUrl: "https://github.com/rameshdragon/crop-yield",
-    },
-    {
-      title: "AI SaaS Platform - Solo End-to-End Build",
-      stack: ["React", "TypeScript", "Node.js", "PostgreSQL", "OpenAI API", "AWS Lambda", "Docker", "CI/CD"],
-      summary:
-        "A production AI SaaS product built solo with a full frontend, backend, payments-ready persistence, and deployment pipeline.",
-      impact: [
-        "Integrated OpenAI image generation into a full production SaaS with a React/TypeScript frontend and Node.js backend.",
-        "Ran with real paying users and kept API performance under 100ms while shipping and maintaining the product solo.",
-        "Used Docker and GitHub Actions CI/CD for repeatable deployment and operational stability.",
+        "Built prompt optimization pipeline where user input and style preferences are passed through LangChain to Llama, which rewrites them into a well-structured Stable Diffusion prompt.",
+        "Stable Diffusion runs 4 inference passes on the refined prompt via Hugging Face; all 4 outputs are converted from raw tensor format to web-compatible images and returned together so users can compare results.",
+        "FastAPI owns the full backend pipeline — prompt rewriting, inference, format conversion, response delivery; React frontend handles display and selection only.",
       ],
       repoUrl: "https://github.com/rameshdragon/AI-Icon",
-    },
-    {
-      title: "Real-Time Distributed Platform",
-      stack: ["Node.js", "Python", "PostgreSQL", "Kafka", "Redis", "React", "Plotly", "Docker", "GCP"],
-      summary:
-        "A distributed real-time platform built for high concurrency, low latency, event streaming, and operational visibility.",
-      impact: [
-        "Scaled to more than 10,000 concurrent users using Kafka for event streaming, Redis for caching, and tuned PostgreSQL queries.",
-        "Maintained under 50ms p99 latency at 99.9% uptime on GCP.",
-        "Added Plotly dashboards for live monitoring and system visibility.",
-      ],
-      repoUrl: "https://github.com/rameshdragon/realtime-chat",
     },
   ],
   education: [
@@ -216,34 +213,29 @@ export const portfolioData: PortfolioData = {
   ],
   skillGroups: [
     {
-      title: "AI Agents & Orchestration",
-      summary: "Stateful workflows, tool use, reasoning loops, memory, and multi-agent execution.",
-      items: ["LangChain", "LangGraph", "MCP", "AutoGen", "Multi-Agent Systems", "Tool Calling", "Memory Management", "RLlib"],
+      title: "AI/ML",
+      summary: "LLM workflows, RAG pipelines, machine learning, and model training.",
+      items: ["LangChain", "RAG Pipelines", "Hugging Face Transformers", "PyTorch", "Scikit-learn", "Stable Diffusion", "LLMs (Mixtral, GPT-4)", "OpenAI API", "Anthropic API", "NumPy", "Pandas"],
     },
     {
-      title: "LLMs / NLP",
-      summary: "Agentic workflows, prompt systems, structured outputs, and retrieval-based pipelines.",
-      items: ["OpenAI API", "Anthropic Claude API", "Hugging Face Transformers", "Prompt Engineering", "RAG Pipelines", "Structured Outputs"],
+      title: "Languages",
+      summary: "Core programming languages for backend, scripting, and data work.",
+      items: ["Python", "JavaScript", "TypeScript", "Java", "SQL"],
     },
     {
-      title: "ML / Data",
-      summary: "Training, evaluation, tracking, retraining, and simulation-driven experimentation.",
-      items: ["Scikit-learn", "TensorFlow", "PyTorch", "MLflow", "NumPy", "Pandas", "Model Evaluation", "OpenAI Gym"],
+      title: "Backend & APIs",
+      summary: "Building async APIs, production backends, and service-oriented systems.",
+      items: ["FastAPI", "Flask", "Spring Boot", "Node.js", "REST APIs", "WebSockets", "OAuth 2.0"],
     },
     {
-      title: "Backend / APIs",
-      summary: "Async APIs, production backends, databases, and service-oriented systems.",
-      items: ["Python 3.10+", "FastAPI", "Flask", "Node.js", "REST APIs", "PostgreSQL", "MongoDB", "Redis"],
+      title: "Frontend",
+      summary: "Modern frontend frameworks and styling.",
+      items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     },
     {
-      title: "Cloud / Infra",
-      summary: "Deployment, containers, cloud services, CI/CD, and scalable infrastructure.",
-      items: ["AWS Lambda", "AWS EC2", "AWS S3", "AWS ECS", "GCP Cloud Run", "Docker", "Kubernetes", "GitHub Actions"],
-    },
-    {
-      title: "Frontend / Engineering",
-      summary: "Modern frontend delivery with strong engineering fundamentals and product execution.",
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Plotly", "Streamlit", "Data Structures", "Algorithms"],
+      title: "Infrastructure",
+      summary: "Cloud deployment, containers, databases, and DevOps tooling.",
+      items: ["Docker", "Kubernetes", "AWS (EC2, S3, Lambda)", "PostgreSQL", "MongoDB", "Redis", "CI/CD", "Git", "Claude Code"],
     },
   ],
   askRoutes: [
