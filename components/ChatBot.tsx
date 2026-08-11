@@ -79,7 +79,7 @@ export function ChatBot() {
       role: "assistant",
       text:
         "Hi, I am Ramesh's portfolio assistant. Ask me about his background, skills, projects, contact details, or resume.",
-      suggestions: ["Who is Ramesh?", "Show experience", "Download resume"],
+      suggestions: ["Who is Ramesh?", "Show experience", "What are his skills?"],
     },
   ]);
 
@@ -164,7 +164,7 @@ export function ChatBot() {
             ? result.answer
             : "Sorry, I could not answer that properly. Please try rephrasing it or paste the JD if you want a fit analysis.",
         actions: response.ok ? result.actions ?? [] : [],
-        suggestions: response.ok ? result.suggestions ?? [] : ["Who is Ramesh?", "Paste JD here", "Download resume"],
+        suggestions: response.ok ? result.suggestions ?? [] : ["Who is Ramesh?", "Paste JD here", "What are his skills?"],
       };
 
       setChatMessages((current) => [...current, assistantMessage]);
@@ -185,7 +185,7 @@ export function ChatBot() {
           id: Date.now() + 1,
           role: "assistant",
           text: "Sorry, I could not answer that just now. Please try again or rephrase the question with a little more detail.",
-          suggestions: ["Who is Ramesh?", "Paste JD here", "Download resume"],
+          suggestions: ["Who is Ramesh?", "Paste JD here", "What are his skills?"],
         },
       ]);
     } finally {

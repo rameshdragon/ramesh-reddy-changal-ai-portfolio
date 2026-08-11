@@ -35,8 +35,8 @@ export const portfolioData: PortfolioData = {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/ramesh-reddy-changal-125413247",
-      href: "https://www.linkedin.com/in/ramesh-reddy-changal-125413247/",
+      value: "linkedin.com/in/ramesh-reddy-740897428",
+      href: "https://www.linkedin.com/in/ramesh-reddy-740897428/",
     },
   ],
   highlights: [
@@ -80,18 +80,18 @@ export const portfolioData: PortfolioData = {
       tools: ["Discrete Mathematics", "Grading", "Office Hours"],
     },
     {
-      company: "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)",
+      company: "LTI Mindtree",
       location: "Hyderabad, India",
-      role: "Machine Learning Research Intern",
-      period: "Sep 2022 - Oct 2022",
+      role: "Software Engineer",
+      period: "Jan 2022 - Dec 2023",
       summary:
-        "Enabled data-driven farming risk assessment for 3-4 research scientists by deploying ML crop yield prediction model.",
+        "Worked as a Software Engineer building and deploying ML models, developing backend services, and contributing to frontend features across client projects.",
       achievements: [
-        "Deployed ML crop yield prediction model achieving 70% accuracy using Linear Regression and Random Forest on on-premises server accessible via local WiFi.",
-        "Improved data reliability by 40% through systematic cleaning of noisy agricultural datasets; built Streamlit interface eliminating API overhead, making predictions accessible to non-technical users.",
-        "Contributed to DHIS2 data collection tool with PostgreSQL integration.",
+        "Built and integrated machine learning models into production pipelines, supporting data-driven decision-making across internal tools.",
+        "Developed and maintained backend APIs and services using Flask, Django, and Node.js.",
+        "Contributed to frontend development tasks as part of full-stack feature delivery.",
       ],
-      tools: ["Python", "Scikit-learn", "Linear Regression", "Random Forest", "Streamlit", "PostgreSQL", "DHIS2"],
+      tools: ["Python", "Flask", "Django", "Node.js", "Machine Learning", "REST APIs", "JavaScript"],
     },
     {
       company: "Path Creators",
@@ -243,7 +243,7 @@ export const portfolioData: PortfolioData = {
       id: "experience",
       title: "Experience overview",
       answer:
-        "Ramesh's experience spans graduate teaching at UMBC, ML engineering at ICRISAT, software engineering at Path Creators, and earlier robotics engineering work at Path Creators. His work consistently combines production-minded software engineering with AI and systems thinking.",
+        "Ramesh's experience spans graduate teaching at UMBC, software engineering at LTI Mindtree, software engineering at Path Creators, and earlier robotics engineering work at Path Creators. His work consistently combines production-minded software engineering with AI and systems thinking.",
       sectionId: "experience",
       keywords: ["experience", "work", "roles", "career", "job", "internship"],
     },

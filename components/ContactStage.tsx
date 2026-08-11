@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ArrowUpRight, Check, Copy, Download, Github, Linkedin, Mail, MessageCircle, Phone } from "lucide-react";
+import { ArrowUpRight, Check, Copy, Github, Linkedin, Mail, MessageCircle, Phone } from "lucide-react";
 import { AnimatePresence, motion, useAnimation, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 import { portfolioData } from "@/data/portfolio";
@@ -338,23 +338,9 @@ export function ContactStage() {
       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center gap-16 lg:flex-row lg:gap-24">
         <div className="flex flex-1 flex-col text-center lg:text-left">
           <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
-            <h1 className="mb-2 text-6xl font-black italic uppercase tracking-tighter text-black sm:text-7xl lg:text-9xl">
+            <h1 className="mb-14 text-6xl font-black italic uppercase tracking-tighter text-black sm:text-7xl lg:text-9xl">
               LETS_<br />WORK
             </h1>
-            <a
-              href="/resume/Ramesh-Reddy-Changal-Resume.pdf"
-              download
-              className="mb-14 inline-flex items-center justify-center gap-2 text-base font-light uppercase tracking-tight text-[#0a66c2] transition-colors hover:text-[#004182] lg:justify-start sm:text-xl"
-            >
-              <motion.span
-                animate={{ y: [0, 3, 0], scale: [1, 1.08, 1] }}
-                transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
-                className="inline-flex"
-              >
-                <Download size={18} className="text-[#0a66c2]" />
-              </motion.span>
-              Download my <span className="border-b-2 border-[#0a66c2] font-bold text-[#0a66c2]">resume</span>
-            </a>
           </motion.div>
 
           <div className="relative flex h-80 w-full items-center justify-center lg:justify-start" style={{ filter: "url(#contact-sketch-effect)" }}>
