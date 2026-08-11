@@ -69,15 +69,18 @@ export const portfolioData: PortfolioData = {
     {
       company: "University of Maryland, Baltimore County",
       location: "Baltimore, MD",
-      role: "Graduate Grading Assistant – Discrete Mathematics",
+      role: "Graduate Teaching Assistant – ML & NLP",
       period: "Mar 2024 - May 2025",
       summary:
-        "Supported 150+ students across 3 semesters by grading assignments and exams in probability theory, graph theory, and combinatorics.",
+        "Supported coursework in machine learning, natural language processing, and probability for undergraduate and graduate students over a full academic year.",
       achievements: [
-        "Graded assignments and exams in probability theory, graph theory, and combinatorics for 150+ students across 3 semesters.",
-        "Held office hours covering advanced topics when primary TA was unavailable.",
+        "Mentored students through core ML and NLP concepts — model training, evaluation, probabilistic methods, and statistical foundations.",
+        "Designed and assigned hands-on projects where students built applications using FastAPI and LangChain, integrating with open-source model providers such as Hugging Face.",
+        "Held office hours and one-on-one sessions to debug student code, clarify concepts, and guide project architecture decisions.",
+        "Graded assignments and exams, providing detailed technical feedback on implementation quality and model reasoning.",
+        "Assisted faculty with course material preparation and lab session delivery.",
       ],
-      tools: ["Discrete Mathematics", "Grading", "Office Hours"],
+      tools: ["Machine Learning", "NLP", "FastAPI", "LangChain", "Hugging Face", "Python", "Probability"],
     },
     {
       company: "LTI Mindtree",
@@ -85,13 +88,15 @@ export const portfolioData: PortfolioData = {
       role: "Software Engineer",
       period: "Jan 2022 - Dec 2023",
       summary:
-        "Worked as a Software Engineer building and deploying ML models, developing backend services, and contributing to frontend features across client projects.",
+        "Full-stack development across the delivery lifecycle, owning junior-level features end to end.",
       achievements: [
-        "Built and integrated machine learning models into production pipelines, supporting data-driven decision-making across internal tools.",
-        "Developed and maintained backend APIs and services using Flask, Django, and Node.js.",
-        "Contributed to frontend development tasks as part of full-stack feature delivery.",
+        "Built and maintained backend services in Node.js and Django, exposing REST APIs consumed by internal and client-facing apps.",
+        "Wrote and tuned SQL queries, schemas, and stored procedures; handled data validation and reporting logic.",
+        "Developed and integrated machine learning models into application workflows — data prep, feature handling, and inference endpoints.",
+        "Contributed to frontend components and UI integration, connecting interfaces to backend APIs.",
+        "Handled bug fixes, code reviews, and production support tickets alongside senior engineers.",
       ],
-      tools: ["Python", "Flask", "Django", "Node.js", "Machine Learning", "REST APIs", "JavaScript"],
+      tools: ["Node.js", "Django", "REST APIs", "SQL", "Machine Learning", "JavaScript", "Python"],
     },
     {
       company: "Path Creators",
